@@ -8,11 +8,14 @@ using namespace std;
 
 // 测试样例个数
 int t;
+
 // 任务数量 n ， 可以完成的最大任务量 k
 int n, k;
+
 // 每个任务第一次得解的经验值集合 a, 后续得解的经验值集合 b
 const int MAX = 2e5 + 10;
 int a[MAX], b[MAX];
+
 // a 的前缀和数组 sum_a
 // b 到当前元素的最大值数组 max_b（max_b[i] 表示 b[0] 到 b[i] 的最大值）
 int sum_a[MAX], max_b[MAX];
